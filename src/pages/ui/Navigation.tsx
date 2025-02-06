@@ -8,7 +8,7 @@ export default function Navigation() {
             </div>
             <div id={`${styles.middle}`} className={`${styles.middlecontainer}`}></div>
             <div id={`${styles.right}`} className={`${styles.sidecontainer}`}>
-                <ul id={`${styles.navbox}`} className={`${styles.navcontainer}`}>
+                <ul className={`${styles.navbox} ${styles.navcontainer}`}>
                     <h4>| WORK</h4>
                     <h4>| MEDIA</h4>
                     <h4>| ABOUT</h4>
