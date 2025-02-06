@@ -1,3 +1,4 @@
+/* Global Styling */
 .page{
     position: relative;
     
@@ -8,27 +9,20 @@
     width: 100vw;
     height: 100vh;
 }
-
-#landing{
-    color: white;
-    
-    background-image: url("../../public/_A636985.JPG");
-    background-size: cover;
-    background-color: transparent;
-    
-    width: 100%;
-    height: 100%;   
-    
-}
-
 .blur{
     position: absolute;
+    
     width: 100%;
     height: 100%;
+    
     filter: blur(2px);
 }
 
-#maincontent{
+.subcontainer{
+
+}
+
+.maincontent{
     position: absolute;
 
     color: white;
@@ -43,6 +37,28 @@
 
     z-index: 2;
 }
-#maincontent h1{
+.maincontent h1{
     font-size: 100px;
+
 }
+
+
+
+/* Landing/Home Page */
+#landingbackground{
+    background-image: url("../../public/_A636985.JPG");
+    background-size: cover;
+    background-color: transparent;
+    
+    width: 100%;
+    height: 100%;   
+    
+}
+
+#infobackground{
+    background-color: rgba(82, 112, 88, 0.904);
+    
+    width: 100%;
+    height: 100%;   
+}
+/* info styles */

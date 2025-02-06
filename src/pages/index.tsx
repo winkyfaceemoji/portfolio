@@ -20,8 +20,6 @@ export default function Home() {
       <main className={`${styles.main} ${inter.className}`}>
         <Navigation />
         <Page />
-        <Page />
-        <Page />
       </main>
     </>
   )

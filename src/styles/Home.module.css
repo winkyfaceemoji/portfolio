@@ -1,0 +1,26 @@
+/* FlexBox */
+.flex{
+    display: flex;
+}
+
+.flexcol{
+    display: flex;
+    flex-direction: column;
+}
+
+.flexrow{
+    display: flex;
+    flex-direction: row;
+}
+
+
+/* Spacing */
+.spacebetween{
+    justify-content: space-between;
+}
+.leftalign {
+    float: left;
+}
+.rightalign{
+    float: right;
+}
