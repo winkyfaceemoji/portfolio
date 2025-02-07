@@ -1,0 +1,15 @@
+#footerpage{
+
+    width: 100vw;
+    height: 20vh;
+    min-height: 300px;
+    background-color: white;
+
+    justify-content: center;
+    align-items: center;
+}
+
+#footercontent{
+    width: 80%;
+    height: 100%;
+}

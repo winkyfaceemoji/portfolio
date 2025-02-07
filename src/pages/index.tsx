@@ -2,9 +2,14 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import { Inter } from 'next/font/google' 
+
+//importing styles
 import styles from '@/styles/Home.module.css'; //imports styles from home.module.css
+
+
 import Navigation from './ui/Navigation';
-import Page from './ui/Page'
+import Page from './ui/Page';
+import Footer from './ui/footer';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -20,6 +25,7 @@ export default function Home() {
       <main className={`${styles.main} ${inter.className}`}>
         <Navigation />
         <Page />
+        <Footer />
       </main>
     </>
   )
