@@ -1,14 +1,32 @@
-
+/* Page Sizing */
 .pageContainer{
     width: 100vw;
     height: 100vh;
 }
 
-.backgroundContainer{
-    width: 100%;
+
+/* Foreground Styling */
+.contentContainer{
+    position: absolute;
+    width: 40%;
     height: 100%;
 }
 
-.backgroundImage{
-    
+
+
+/* Background styling */
+.backgroundContainer{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    filter: blur(2px);
+}
+
+
+.flexbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
